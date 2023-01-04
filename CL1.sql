@@ -24,3 +24,7 @@ VALUES (2,'Barbara','Shelf','b.shelf@hotmail.com','12 Elf Road, B5 6RE','0118075
 (7,'Suzane','Tilly','s.tilly@miskatonic.ac.us','52 Old Road, B34 9GE','00987653'),
 (9,'Monica','Shinkai','m.shinkai@miskatonic.ac.us','99 Art Road, B8 3PH','08980966'),
 (10,'Rudolf','Nozaki','r.nozaki@miskatonic.ac.us','88 Smart road, B22 7AR','04532232');
+
+UPDATE `CustomersPersonalInformation`
+SET `second name` = 'Jones'
+WHERE `customer number` =9;
